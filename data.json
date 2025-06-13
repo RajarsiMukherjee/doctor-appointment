@@ -1,0 +1,95 @@
+{
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Dr. Smith",
+      "specialization": "Cardiologist",
+      "availableSlots": [
+        "2025-06-13T10:00:00",
+        "2025-06-13T10:30:00",
+        "2025-06-13T11:00:00",
+        "2025-06-13T11:30:00",
+        "2025-06-13T12:00:00",
+        "2025-06-13T12:30:00"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Dr. Patel",
+      "specialization": "Dermatologist",
+      "availableSlots": [
+        "2025-06-13T10:00:00",
+        "2025-06-13T10:30:00",
+        "2025-06-13T11:00:00",
+        "2025-06-13T11:30:00",
+        "2025-06-13T12:00:00",
+        "2025-06-13T12:30:00"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Dr. Johnson",
+      "specialization": "Pediatrician",
+      "availableSlots": [
+        "2025-06-13T10:00:00",
+        "2025-06-13T10:30:00",
+        "2025-06-13T11:00:00",
+        "2025-06-13T11:30:00",
+        "2025-06-13T12:00:00",
+        "2025-06-13T12:30:00"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Dr. Lee",
+      "specialization": "Orthopedic Surgeon",
+      "availableSlots": [
+        "2025-06-13T10:00:00",
+        "2025-06-13T10:30:00",
+        "2025-06-13T11:00:00",
+        "2025-06-13T11:30:00",
+        "2025-06-13T12:00:00",
+        "2025-06-13T12:30:00"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Dr. Kim",
+      "specialization": "Neurologist",
+      "availableSlots": [
+        "2025-06-13T10:00:00",
+        "2025-06-13T10:30:00",
+        "2025-06-13T11:00:00",
+        "2025-06-13T11:30:00",
+        "2025-06-13T12:00:00",
+        "2025-06-13T12:30:00"
+      ]
+    }
+  ],
+  "appointments": [
+    {
+      "patientName": "Papon",
+      "slot": "2025-06-13T10:00:00",
+      "doctorId": 1,
+      "id": 1
+    },
+    {
+      "patientName": "Paromita Banerjee",
+      "slot": "2025-06-13T11:00:00",
+      "doctorId": 1,
+      "id": 2
+    },
+    {
+      "patientName": "Susmita",
+      "slot": "2025-06-13T11:00:00",
+      "doctorId": 5,
+      "id": 3
+    },
+    {
+      "patientName": "Xavireus",
+      "slot": "2025-06-13T12:00:00",
+      "doctorId": 1,
+      "id": 4
+    }
+  ]
+}
